@@ -1,0 +1,15 @@
+.buttonElem {
+    background-color: rgba(211, 211, 211, 0.32);
+    color: black;
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 2px;
+    width: 7rem;
+
+}
+
+.buttonElem.active {
+    background-color: #4aa6a6;
+    color: white;
+}

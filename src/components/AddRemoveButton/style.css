@@ -1,0 +1,24 @@
+.flexContainer {
+    display: flex;
+    align-items: center;
+
+}
+
+.addRemoveButton {
+    width: 1.8rem;
+    height: 1.8rem;
+    border: black solid 1px;
+    background-color: #4e4edc;
+    color: #e1dddd;
+    font-size: 1rem;
+    border-radius: 5px;
+
+}
+
+.amount {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

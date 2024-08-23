@@ -1,0 +1,56 @@
+.menuItem {
+    width: 10rem;
+    padding: 1rem 2rem;
+    border-left: rgba(106, 106, 106, 0.71) 1px solid;
+    border-top: rgba(106, 106, 106, 0.71) 1px solid;
+    box-shadow: #e3e3e3 5px 5px 10px 3px;
+    border-radius:3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemName {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    margin: .2rem;
+
+}
+
+.infoFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+    font-size: 0.6rem;
+    font-family: Arial, sans-serif;
+    color: white;
+    width: fit-content;
+    padding: 3px 4px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.info.calories {
+    background-color: teal;
+}
+
+.info.type {
+    background-color: blue;
+}
+
+.info.side {
+    color: black;
+    background-color: gold;
+    font-weight: bold;
+}
+
+.flexRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-family: Arial, sans-serif;
+}

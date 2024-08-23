@@ -1,0 +1,16 @@
+.menuButtonContainer {
+    display: flex;
+    gap: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+.menuItemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+.rowContainer {
+    display: flex;
+}
