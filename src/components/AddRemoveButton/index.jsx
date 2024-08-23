@@ -5,7 +5,7 @@ const AddRemoveButton = () => {
 
     const [orderQuantity, setOrderQuantity] = useState(0)
 
-    const handleClick = () => {
+    const handleClick = (event) => {
         let value = event.target.value
         value === '+' ? setOrderQuantity(orderQuantity+1)
             : orderQuantity === 0
