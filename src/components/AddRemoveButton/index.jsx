@@ -3,20 +3,21 @@ import {useState} from "react";
 
 const AddRemoveButton = () => {
 
-    const [amount, setAmount] = useState(0)
+    const [orderQuantity, setOrderQuantity] = useState(0)
 
     const handleClick = () => {
         let value = event.target.value
-        value === '+' ? setAmount(amount+1)
-            : amount === 0
-                ? setAmount(amount)
-                : setAmount(amount-1)
+        value === '+' ? setOrderQuantity(orderQuantity+1)
+            : orderQuantity === 0
+                ? setOrderQuantity(orderQuantity)
+                : setOrderQuantity(orderQuantity-1)
     }
     return (
         <div className={'flexContainer'}>
-            <button className={'addRemoveButton plus'} value={'-'} onClick={handleClick}>+</button>
-            <div className={'amount'}>{amount}</div>
-            <button className={'addRemoveButton minus'} value={'+'} onClick={handleClick}>-</button>
+            <button className={'addRemoveButton minus'} value={'-'} onClick={handleClick}>-</button>
+            <div className={'amount'}>{orderQuantity}</div>
+            <button className={'addRemoveButton plus'} value={'+'} onClick={handleClick}>+</button>
+
         </div>
     )
 }

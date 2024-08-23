@@ -8,7 +8,9 @@ import TypeButtonContainer from "./components/TypeButtonContainer/index.jsx";
 
 function App() {
 
+
     const [menu, setMenu] = useState([])
+
     useEffect(() => {
         fetch('https://food-delivery-api.dev.io-academy.uk/restaurants/3')
             .then((response) => {
